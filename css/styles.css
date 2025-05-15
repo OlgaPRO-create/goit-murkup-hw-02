@@ -1,5 +1,5 @@
 
-.body {
+body {
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: #ffffff; 
@@ -144,7 +144,7 @@ text-decoration: none;
   background-color: #404BBF;
 }
 
-.p {
+p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -153,7 +153,8 @@ text-decoration: none;
 
 h1, h2, h3 {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
