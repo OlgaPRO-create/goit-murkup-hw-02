@@ -116,7 +116,6 @@ text-decoration: none;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
   font-weight: 700;
  }
 
@@ -129,9 +128,7 @@ text-decoration: none;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
-  margin: 0 auto;
-  border: none;
+
 
 }
 
@@ -220,14 +217,19 @@ h1, h2, h3 {
 
 .feature-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+
 }
 
 .feature-text {
   font-size: 16px;
   color: #434455;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-section {
@@ -237,3 +239,42 @@ h1, h2, h3 {
 .portfolio-item {
   background-color: #ffffff;
 }
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.feature-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.benefits-section {
+  background-color: #F4F4FD;
+}
+
+.feature-item {
+  background-color: #FFFFFF;
