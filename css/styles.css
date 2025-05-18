@@ -197,7 +197,7 @@ background-color: #F4F4FD;
   letter-spacing: 0.02em;
 }
 
-.team-section {
+.team section {
   background-color: #F4F4FD;
 }
 .project-title {
@@ -224,7 +224,6 @@ background-color: #F4F4FD;
   flex-basis: calc((100% - 72px) / 4);
 }
 .benefits-section {
-  padding: 60px 0;
   background-color: #ffffff;
 }
 
