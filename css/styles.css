@@ -52,23 +52,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
 .nav-link:hover,
 .nav-link:focus, 
 .contacts-link:hover,
 .contacts-link:focus {
  color: #404bbf;
 }
-
 .page-footer {
   background-color: #2e2f42;
 }
-
 .section-main {
   background-color: #2e2f42;
 }
-
-
 .section-title {
   font-size: 56px;
   line-height: 1.07;
@@ -76,8 +71,6 @@ color: #434455;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-
-
 .button-primary {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
@@ -159,6 +152,14 @@ text-align: center;
   background-color: #FFFFFF;
 }
 
+.portfolio-list {
+background-color: #F4F4FD;
+}
+
+.project-category {
+  background-color: #FFFFFF 
+}
+
 .team-title {
   font-size: 36px;
   font-weight: 700;
@@ -166,7 +167,6 @@ text-align: center;
   color: #2e2f42;
   text-align: center;
 }
-
 .team-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -174,18 +174,14 @@ text-align: center;
   color: #2e2f42;
   text-align: center;
   letter-spacing: 0.02em;
-
 }
-
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
   text-align: center;
   letter-spacing: 0.02em;
-
 }
-
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -209,3 +205,29 @@ text-align: center;
 .project-category {
   color: #434455;
 }
+
+
+.benefit-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.benefit-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefit-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.benefits-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
