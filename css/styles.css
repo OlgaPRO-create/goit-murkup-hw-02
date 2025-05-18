@@ -156,7 +156,7 @@ text-align: center;
 }
 
 .portfolio-item {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .team-title {
@@ -173,6 +173,8 @@ text-align: center;
   line-height: 1.2;
   color: #2e2f42;
   text-align: center;
+  letter-spacing: 0.02em;
+
 }
 
 .team-text {
@@ -180,4 +182,30 @@ text-align: center;
   line-height: 1.5;
   color: #434455;
   text-align: center;
+  letter-spacing: 0.02em;
+
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.project-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.project-category {
+  color: #434455;
 }
