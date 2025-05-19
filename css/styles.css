@@ -189,7 +189,7 @@ background-color: #F4F4FD;
 .team-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -203,6 +203,7 @@ background-color: #F4F4FD;
 .project-title {
   font-size: 20px;
   line-height: 1.2;
+  text-align: left;
 }
 .project-category {
   color: #434455;
@@ -219,6 +220,7 @@ background-color: #F4F4FD;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: left;
 }
 .benefit-item {
   flex-basis: calc((100% - 72px) / 4);
